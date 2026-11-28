@@ -1,0 +1,2094 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceSite": "https://ideascratch.crcibernetica.com/",
+  "sourceAppVersion": "v4.37",
+  "sourceServer": "nginx/1.18.0 (Ubuntu)",
+  "sourceLastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+  "extractedAtUtc": "2026-11-27T21:48:23Z",
+  "diskVerification": {
+    "drive": "C:",
+    "checkedAtUtc": "2026-11-27T21:47:45Z",
+    "method": "PowerShell Get-Volume -DriveLetter C & Get-PSDrive C",
+    "volumeSizeBytes": 254803963904,
+    "getVolumeFreeBytesBeforeExtraction": 1391128576,
+    "getPsDriveFreeBytesBeforeExtraction": 1390800896,
+    "freeGiBBeforeExtraction": 1.3,
+    "totalExtractedBytes": 770331,
+    "percentOfFreeSpace": 0.0554
+  },
+  "totals": {
+    "imageCount": 5,
+    "imageBytes": 665851,
+    "manifestBytes": 2715,
+    "exampleCount": 30,
+    "exampleBytes": 101765,
+    "totalBytes": 770331
+  },
+  "defaultStartupProject": {
+    "sourceFile": "js/workspace.js",
+    "sourceLines": "441-443",
+    "symbol": "_defaultBlocks",
+    "description": "Default Blockly XML loaded on fresh start when localStorage['ideascratch_autosave'] is absent or on newProject().",
+    "blocksXml": "<xml xmlns=\"https://developers.google.com/blockly/xml\">\n    <block type=\"controls_forever\" x=\"20\" y=\"20\"></block>\n</xml>",
+    "generatedCircuitPython": "import board\nfrom ideaboard import IdeaBoard\nfrom time import sleep\n\nib = IdeaBoard()\n\nwhile True:\n  sleep(0.01)\n"
+  },
+  "images": [
+    {
+      "id": "ideaboard-svg",
+      "name": "IdeaBoard Official SVG",
+      "role": "Primary IdeaBoard ESP32 simulator board graphic",
+      "localPath": "public/assets/ideascratch/ideaboard.svg",
+      "publicRelativePath": "assets/ideascratch/ideaboard.svg",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/ideaboard.svg",
+      "httpStatus": 200,
+      "contentType": "image/svg+xml",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "SVG 1.1 (Inkscape 1.4.3)",
+      "dimensions": {
+        "width": "100%",
+        "height": "100%",
+        "viewBox": "0 0 42.7 65.7",
+        "viewBoxWidth": 42.7,
+        "viewBoxHeight": 65.7,
+        "units": "mm",
+        "aspectRatio": 0.649924,
+        "renderedCssSizePx": {
+          "width": 256,
+          "height": 393.89
+        },
+        "embeddedRasterCount": 2
+      },
+      "bytes": 381808,
+      "sha256": "52055e536006e5815f36f992f0ef116452bab145cc5702b8027e00915801d79b"
+    },
+    {
+      "id": "explorer-svg",
+      "name": "IdeaSense Explorer Official SVG",
+      "role": "IdeaSense Explorer expansion board graphic with addressable 5x5 LED matrix (path34-path82)",
+      "localPath": "public/assets/ideascratch/explorer.svg",
+      "publicRelativePath": "assets/ideascratch/explorer.svg",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/explorer.svg",
+      "httpStatus": 200,
+      "contentType": "image/svg+xml",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "SVG 1.1 (Inkscape 1.4.3)",
+      "dimensions": {
+        "width": "82.224442",
+        "height": "87.847351",
+        "viewBox": "0 0 82.224442 87.847351",
+        "viewBoxWidth": 82.224442,
+        "viewBoxHeight": 87.847351,
+        "units": "mm",
+        "aspectRatio": 0.935992,
+        "renderedCssSizePx": {
+          "width": 256,
+          "height": 273.51
+        },
+        "embeddedRasterCount": 2
+      },
+      "bytes": 261152,
+      "sha256": "5926aa9afdfdf62f748cd907670ec075a2c5ca3fc2d963d309c921d3393d55eb"
+    },
+    {
+      "id": "favicon-png",
+      "name": "IdeaScratch Official Favicon",
+      "role": "Browser tab icon",
+      "localPath": "public/assets/ideascratch/favicon.png",
+      "publicRelativePath": "assets/ideascratch/favicon.png",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/favicon.png",
+      "httpStatus": 200,
+      "contentType": "image/png",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "PNG",
+      "dimensions": {
+        "widthPx": 32,
+        "heightPx": 32,
+        "aspectRatio": 1.0,
+        "renderedCssSizePx": {
+          "width": 32,
+          "height": 32
+        },
+        "variant": "icon"
+      },
+      "bytes": 2010,
+      "sha256": "d15b4fe9c49d64ccecf77ddf078b8704cfcfa013c46aed20e14973cc1bb41171"
+    },
+    {
+      "id": "crcibernetica-logo-webp",
+      "name": "CRCibernetica Official Logo",
+      "role": "Hardware & platform creator logo (Help -> About modal)",
+      "localPath": "public/assets/ideascratch/img/crcibernetica-logo.webp",
+      "publicRelativePath": "assets/ideascratch/img/crcibernetica-logo.webp",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/img/crcibernetica-logo.webp",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "WebP (VP8X)",
+      "dimensions": {
+        "widthPx": 508,
+        "heightPx": 80,
+        "aspectRatio": 6.35,
+        "renderedCssSizePx": {
+          "width": 508,
+          "height": 80
+        },
+        "variant": "brand-logo"
+      },
+      "bytes": 15392,
+      "sha256": "92c56ce2ec60e54c77976732336f0bca041c2bfa277467ccbbfb3d83b1b798ba"
+    },
+    {
+      "id": "ucenfotec-logo-png",
+      "name": "Universidad CENFOTEC Official Logo",
+      "role": "Institutional partner logo (Help -> About modal)",
+      "localPath": "public/assets/ideascratch/img/ucenfotec-logo.png",
+      "publicRelativePath": "assets/ideascratch/img/ucenfotec-logo.png",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/img/ucenfotec-logo.png",
+      "httpStatus": 200,
+      "contentType": "image/png",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "PNG",
+      "dimensions": {
+        "widthPx": 250,
+        "heightPx": 105,
+        "aspectRatio": 2.380952,
+        "renderedCssSizePx": {
+          "width": 250,
+          "height": 105
+        },
+        "variant": "partner-logo"
+      },
+      "bytes": 5489,
+      "sha256": "fb6d78125b0d90d695ed6938ce66a736264347617beea322ddeeb3d273dce7d2"
+    }
+  ],
+  "svgOverlays": {
+    "ideaboard": {
+      "sourceFile": "css/styles.css & index.html",
+      "anchorConvention": "translate(-50%, -50%) center-anchored on 256x393.89px board-container",
+      "totalOverlays": 29,
+      "specialOverlays": [
+        {
+          "domId": "sim-pixel",
+          "kind": "neopixel",
+          "pin": "IO02",
+          "topPct": 52.5,
+          "leftPct": 49.7,
+          "widthPx": 22,
+          "heightPx": 22,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-boot-hitbox",
+          "kind": "boot-button",
+          "pin": "IO0",
+          "topPct": 16.7,
+          "leftPct": 93.1,
+          "widthPx": 20,
+          "heightPx": 32,
+          "zIndex": 20
+        },
+        {
+          "domId": "sim-motor1-overlay",
+          "kind": "motor",
+          "pin": "IO12/IO14",
+          "topPct": 38.12,
+          "leftPct": 90.96,
+          "widthPct": 5.81,
+          "heightPct": 7.34,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-motor2-overlay",
+          "kind": "motor",
+          "pin": "IO13/IO15",
+          "topPct": 38.12,
+          "leftPct": 9.81,
+          "widthPct": 5.81,
+          "heightPct": 7.34,
+          "zIndex": 10
+        }
+      ],
+      "servoOverlays": [
+        {
+          "domId": "sim-servo-io4",
+          "ideascratchPin": "IO4",
+          "specPin": "IO04",
+          "topPct": 63.48,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-servo-io5",
+          "ideascratchPin": "IO5",
+          "specPin": "IO05",
+          "topPct": 66.98,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-servo-io18",
+          "ideascratchPin": "IO18",
+          "specPin": "IO18",
+          "topPct": 70.49,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-servo-io19",
+          "ideascratchPin": "IO19",
+          "specPin": "IO19",
+          "topPct": 74.01,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-servo-io23",
+          "ideascratchPin": "IO23",
+          "specPin": "IO23",
+          "topPct": 77.52,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        }
+      ],
+      "analogOverlays": [
+        {
+          "domId": "sim-analog-io33",
+          "ideascratchPin": "IO33",
+          "specPin": "IO33",
+          "topPct": 67.17,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-analog-io32",
+          "ideascratchPin": "IO32",
+          "specPin": "IO32",
+          "topPct": 70.67,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-analog-io35",
+          "ideascratchPin": "IO35",
+          "specPin": "IO35",
+          "topPct": 74.17,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-analog-io34",
+          "ideascratchPin": "IO34",
+          "specPin": "IO34",
+          "topPct": 77.67,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-analog-io39",
+          "ideascratchPin": "IO39",
+          "specPin": "IO39",
+          "topPct": 81.18,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        },
+        {
+          "domId": "sim-analog-io36",
+          "ideascratchPin": "IO36",
+          "specPin": "IO36",
+          "topPct": 84.68,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 10
+        }
+      ],
+      "digitalOverlays": [
+        {
+          "domId": "sim-digital-io4",
+          "side": "left",
+          "ideascratchPin": "IO4",
+          "specPin": "IO04",
+          "topPct": 63.48,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io5",
+          "side": "left",
+          "ideascratchPin": "IO5",
+          "specPin": "IO05",
+          "topPct": 66.98,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io18",
+          "side": "left",
+          "ideascratchPin": "IO18",
+          "specPin": "IO18",
+          "topPct": 70.49,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io19",
+          "side": "left",
+          "ideascratchPin": "IO19",
+          "specPin": "IO19",
+          "topPct": 74.01,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io23",
+          "side": "left",
+          "ideascratchPin": "IO23",
+          "specPin": "IO23",
+          "topPct": 77.52,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io25",
+          "side": "left",
+          "ideascratchPin": "IO25",
+          "specPin": "IO25",
+          "topPct": 81.02,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io26",
+          "side": "left",
+          "ideascratchPin": "IO26",
+          "specPin": "IO26",
+          "topPct": 84.55,
+          "leftPct": 11.69,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io27",
+          "side": "right",
+          "ideascratchPin": "IO27",
+          "specPin": "IO27",
+          "topPct": 63.61,
+          "leftPct": 88.78,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io33",
+          "side": "right",
+          "ideascratchPin": "IO33",
+          "specPin": "IO33",
+          "topPct": 67.17,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io32",
+          "side": "right",
+          "ideascratchPin": "IO32",
+          "specPin": "IO32",
+          "topPct": 70.67,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io35",
+          "side": "right",
+          "ideascratchPin": "IO35",
+          "specPin": "IO35",
+          "topPct": 74.17,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io34",
+          "side": "right",
+          "ideascratchPin": "IO34",
+          "specPin": "IO34",
+          "topPct": 77.67,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io39",
+          "side": "right",
+          "ideascratchPin": "IO39",
+          "specPin": "IO39",
+          "topPct": 81.18,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        },
+        {
+          "domId": "sim-digital-io36",
+          "side": "right",
+          "ideascratchPin": "IO36",
+          "specPin": "IO36",
+          "topPct": 84.68,
+          "leftPct": 89.15,
+          "widthPct": 17.03,
+          "heightPct": 3.5,
+          "zIndex": 11
+        }
+      ]
+    },
+    "explorer": {
+      "sourceFile": "js/simulator.js & css/styles.css",
+      "matrixActiveStyle": {
+        "fill": "#4488ff",
+        "fillOpacity": "1",
+        "stroke": "#4488ff",
+        "strokeWidth": "3.32",
+        "strokeLinejoin": "round"
+      },
+      "matrixInactiveStyle": {
+        "fill": "#b3b3b3",
+        "fillOpacity": "1",
+        "stroke": "none",
+        "strokeWidth": ""
+      },
+      "matrixLedCount": 25,
+      "matrixLeds": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "pathId": "path34",
+          "viewBoxRect": {
+            "x": 25.7417,
+            "y": 40.7645,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 26.5717,
+            "y": 41.554
+          },
+          "centerPct": {
+            "x": 32.32,
+            "y": 47.3
+          }
+        },
+        {
+          "index": 1,
+          "x": 1,
+          "y": 0,
+          "pathId": "path36",
+          "viewBoxRect": {
+            "x": 33.1719,
+            "y": 40.7645,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 34.0019,
+            "y": 41.554
+          },
+          "centerPct": {
+            "x": 41.35,
+            "y": 47.3
+          }
+        },
+        {
+          "index": 2,
+          "x": 2,
+          "y": 0,
+          "pathId": "path38",
+          "viewBoxRect": {
+            "x": 40.6635,
+            "y": 40.7645,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 41.4935,
+            "y": 41.554
+          },
+          "centerPct": {
+            "x": 50.46,
+            "y": 47.3
+          }
+        },
+        {
+          "index": 3,
+          "x": 3,
+          "y": 0,
+          "pathId": "path40",
+          "viewBoxRect": {
+            "x": 47.9095,
+            "y": 40.7645,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 48.7395,
+            "y": 41.554
+          },
+          "centerPct": {
+            "x": 59.28,
+            "y": 47.3
+          }
+        },
+        {
+          "index": 4,
+          "x": 4,
+          "y": 0,
+          "pathId": "path42",
+          "viewBoxRect": {
+            "x": 55.4625,
+            "y": 40.7645,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 56.2925,
+            "y": 41.554
+          },
+          "centerPct": {
+            "x": 68.46,
+            "y": 47.3
+          }
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 1,
+          "pathId": "path44",
+          "viewBoxRect": {
+            "x": 25.7417,
+            "y": 48.1947,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 26.5717,
+            "y": 48.9842
+          },
+          "centerPct": {
+            "x": 32.32,
+            "y": 55.76
+          }
+        },
+        {
+          "index": 6,
+          "x": 1,
+          "y": 1,
+          "pathId": "path46",
+          "viewBoxRect": {
+            "x": 33.1719,
+            "y": 48.1947,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 34.0019,
+            "y": 48.9842
+          },
+          "centerPct": {
+            "x": 41.35,
+            "y": 55.76
+          }
+        },
+        {
+          "index": 7,
+          "x": 2,
+          "y": 1,
+          "pathId": "path48",
+          "viewBoxRect": {
+            "x": 40.6635,
+            "y": 48.1947,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 41.4935,
+            "y": 48.9842
+          },
+          "centerPct": {
+            "x": 50.46,
+            "y": 55.76
+          }
+        },
+        {
+          "index": 8,
+          "x": 3,
+          "y": 1,
+          "pathId": "path50",
+          "viewBoxRect": {
+            "x": 47.9095,
+            "y": 48.1947,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 48.7395,
+            "y": 48.9842
+          },
+          "centerPct": {
+            "x": 59.28,
+            "y": 55.76
+          }
+        },
+        {
+          "index": 9,
+          "x": 4,
+          "y": 1,
+          "pathId": "path52",
+          "viewBoxRect": {
+            "x": 55.4625,
+            "y": 48.1947,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 56.2925,
+            "y": 48.9842
+          },
+          "centerPct": {
+            "x": 68.46,
+            "y": 55.76
+          }
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 2,
+          "pathId": "path54",
+          "viewBoxRect": {
+            "x": 25.7417,
+            "y": 55.6249,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 26.5717,
+            "y": 56.4144
+          },
+          "centerPct": {
+            "x": 32.32,
+            "y": 64.22
+          }
+        },
+        {
+          "index": 11,
+          "x": 1,
+          "y": 2,
+          "pathId": "path56",
+          "viewBoxRect": {
+            "x": 33.1719,
+            "y": 55.6249,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 34.0019,
+            "y": 56.4144
+          },
+          "centerPct": {
+            "x": 41.35,
+            "y": 64.22
+          }
+        },
+        {
+          "index": 12,
+          "x": 2,
+          "y": 2,
+          "pathId": "path58",
+          "viewBoxRect": {
+            "x": 40.6635,
+            "y": 55.6249,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 41.4935,
+            "y": 56.4144
+          },
+          "centerPct": {
+            "x": 50.46,
+            "y": 64.22
+          }
+        },
+        {
+          "index": 13,
+          "x": 3,
+          "y": 2,
+          "pathId": "path60",
+          "viewBoxRect": {
+            "x": 47.9095,
+            "y": 55.6249,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 48.7395,
+            "y": 56.4144
+          },
+          "centerPct": {
+            "x": 59.28,
+            "y": 64.22
+          }
+        },
+        {
+          "index": 14,
+          "x": 4,
+          "y": 2,
+          "pathId": "path62",
+          "viewBoxRect": {
+            "x": 55.4625,
+            "y": 55.6249,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 56.2925,
+            "y": 56.4144
+          },
+          "centerPct": {
+            "x": 68.46,
+            "y": 64.22
+          }
+        },
+        {
+          "index": 15,
+          "x": 0,
+          "y": 3,
+          "pathId": "path64",
+          "viewBoxRect": {
+            "x": 25.7417,
+            "y": 62.5639,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 26.5717,
+            "y": 63.3534
+          },
+          "centerPct": {
+            "x": 32.32,
+            "y": 72.12
+          }
+        },
+        {
+          "index": 16,
+          "x": 1,
+          "y": 3,
+          "pathId": "path66",
+          "viewBoxRect": {
+            "x": 33.1719,
+            "y": 62.5639,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 34.0019,
+            "y": 63.3534
+          },
+          "centerPct": {
+            "x": 41.35,
+            "y": 72.12
+          }
+        },
+        {
+          "index": 17,
+          "x": 2,
+          "y": 3,
+          "pathId": "path68",
+          "viewBoxRect": {
+            "x": 40.6635,
+            "y": 62.5639,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 41.4935,
+            "y": 63.3534
+          },
+          "centerPct": {
+            "x": 50.46,
+            "y": 72.12
+          }
+        },
+        {
+          "index": 18,
+          "x": 3,
+          "y": 3,
+          "pathId": "path70",
+          "viewBoxRect": {
+            "x": 47.9095,
+            "y": 62.5639,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 48.7395,
+            "y": 63.3534
+          },
+          "centerPct": {
+            "x": 59.28,
+            "y": 72.12
+          }
+        },
+        {
+          "index": 19,
+          "x": 4,
+          "y": 3,
+          "pathId": "path72",
+          "viewBoxRect": {
+            "x": 55.4625,
+            "y": 62.5639,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 56.2925,
+            "y": 63.3534
+          },
+          "centerPct": {
+            "x": 68.46,
+            "y": 72.12
+          }
+        },
+        {
+          "index": 20,
+          "x": 0,
+          "y": 4,
+          "pathId": "path74",
+          "viewBoxRect": {
+            "x": 25.7417,
+            "y": 69.6257,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 26.5717,
+            "y": 70.4152
+          },
+          "centerPct": {
+            "x": 32.32,
+            "y": 80.16
+          }
+        },
+        {
+          "index": 21,
+          "x": 1,
+          "y": 4,
+          "pathId": "path76",
+          "viewBoxRect": {
+            "x": 33.1719,
+            "y": 69.6257,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 34.0019,
+            "y": 70.4152
+          },
+          "centerPct": {
+            "x": 41.35,
+            "y": 80.16
+          }
+        },
+        {
+          "index": 22,
+          "x": 2,
+          "y": 4,
+          "pathId": "path78",
+          "viewBoxRect": {
+            "x": 40.6635,
+            "y": 69.6257,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 41.4935,
+            "y": 70.4152
+          },
+          "centerPct": {
+            "x": 50.46,
+            "y": 80.16
+          }
+        },
+        {
+          "index": 23,
+          "x": 3,
+          "y": 4,
+          "pathId": "path80",
+          "viewBoxRect": {
+            "x": 47.9095,
+            "y": 69.6257,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 48.7395,
+            "y": 70.4152
+          },
+          "centerPct": {
+            "x": 59.28,
+            "y": 80.16
+          }
+        },
+        {
+          "index": 24,
+          "x": 4,
+          "y": 4,
+          "pathId": "path82",
+          "viewBoxRect": {
+            "x": 55.4625,
+            "y": 69.6257,
+            "width": 1.66,
+            "height": 1.579
+          },
+          "centerViewBox": {
+            "x": 56.2925,
+            "y": 70.4152
+          },
+          "centerPct": {
+            "x": 68.46,
+            "y": 80.16
+          }
+        }
+      ],
+      "buttonAnchorConvention": "top-left corner (no translate)",
+      "buttons": [
+        {
+          "domId": "sim-explorer-btn-a",
+          "index": 0,
+          "label": "Button A",
+          "topPct": 86.8,
+          "leftPct": 26.42,
+          "widthPct": 11.65,
+          "heightPct": 7.52,
+          "zIndex": 20
+        },
+        {
+          "domId": "sim-explorer-btn-b",
+          "index": 1,
+          "label": "Button B",
+          "topPct": 86.8,
+          "leftPct": 44.34,
+          "widthPct": 11.65,
+          "heightPct": 7.52,
+          "zIndex": 20
+        },
+        {
+          "domId": "sim-explorer-btn-c",
+          "index": 2,
+          "label": "Button C",
+          "topPct": 86.8,
+          "leftPct": 61.07,
+          "widthPct": 11.65,
+          "heightPct": 7.52,
+          "zIndex": 20
+        }
+      ]
+    }
+  },
+  "examplesManifest": {
+    "localPath": "public/assets/ideascratch/examples/manifest.json",
+    "publicRelativePath": "assets/ideascratch/examples/manifest.json",
+    "sourceUrl": "https://ideascratch.crcibernetica.com/examples/manifest.json",
+    "httpStatus": 200,
+    "contentType": "application/json",
+    "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+    "bytes": 2715,
+    "sha256": "638b26a922943227865534b95b64553d0ea4b81e567eda24c1533066e78c7e00"
+  },
+  "examples": [
+    {
+      "section": "Basics",
+      "key": "blink",
+      "label": "Blink",
+      "file": "blink.iss",
+      "localPath": "public/assets/ideascratch/examples/blink.iss",
+      "publicRelativePath": "assets/ideascratch/examples/blink.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/blink.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1006,
+      "sha256": "45de7fa8f7a4ed63495da47ed0f2252909059fc2b1e132cfddd2107aaca079a3",
+      "blockCount": 7,
+      "shadowCount": 0,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "ib_pixel",
+        "math_number",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "digitalIn",
+      "label": "Digital In",
+      "file": "digitalIn.iss",
+      "localPath": "public/assets/ideascratch/examples/digitalIn.iss",
+      "publicRelativePath": "assets/ideascratch/examples/digitalIn.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/digitalIn.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1059,
+      "sha256": "0f2e64f7ae390dbccd81a3f9a2090c3c13d9036a269a4580b4138b21764e8554",
+      "blockCount": 6,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "ib_digital_in_read",
+        "ib_digital_in_setup",
+        "math_number",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "digitalOut",
+      "label": "Digital Out",
+      "file": "digitalOut.iss",
+      "localPath": "public/assets/ideascratch/examples/digitalOut.iss",
+      "publicRelativePath": "assets/ideascratch/examples/digitalOut.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/digitalOut.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1531,
+      "sha256": "6e049c39eb2b0944472d02880556450758a0514d93e98f4db245b098eee58f35",
+      "blockCount": 8,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "ib_digital_out_setup",
+        "ib_digital_out_write",
+        "math_number",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "analogIn",
+      "label": "Analog In",
+      "file": "analogIn.iss",
+      "localPath": "public/assets/ideascratch/examples/analogIn.iss",
+      "publicRelativePath": "assets/ideascratch/examples/analogIn.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/analogIn.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1020,
+      "sha256": "a7a42f2b3407865630d224ecbaeb787eea273c86eae0525b9f1f71f01b104577",
+      "blockCount": 6,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "ib_analog_in_read",
+        "ib_analog_in_setup",
+        "math_number",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "pixel",
+      "label": "Pixel",
+      "file": "pixel.iss",
+      "localPath": "public/assets/ideascratch/examples/pixel.iss",
+      "publicRelativePath": "assets/ideascratch/examples/pixel.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/pixel.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1553,
+      "sha256": "ba820f512b313065ac78bbe2a38d47571d87b48f19adc157537d2e0d764a440e",
+      "blockCount": 10,
+      "shadowCount": 0,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "ib_pixel",
+        "math_number",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "rainbow",
+      "label": "Rainbow",
+      "file": "rainbow.iss",
+      "localPath": "public/assets/ideascratch/examples/rainbow.iss",
+      "publicRelativePath": "assets/ideascratch/examples/rainbow.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/rainbow.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1348,
+      "sha256": "19cdaac92b6691bc3d88885a8b41be3530937819dff245bd36490aa5f599173a",
+      "blockCount": 9,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_for",
+        "controls_forever",
+        "ib_arcoiris",
+        "math_number",
+        "time_sleep",
+        "variables_get"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "motors",
+      "label": "Motors",
+      "file": "motors.iss",
+      "localPath": "public/assets/ideascratch/examples/motors.iss",
+      "publicRelativePath": "assets/ideascratch/examples/motors.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/motors.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 3276,
+      "sha256": "7126057008135bfaef8bf2aa0896bec3b3e60eb2f78d7f7abdfdb00ed9823123",
+      "blockCount": 21,
+      "shadowCount": 0,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "ib_motors",
+        "math_number",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "servo",
+      "label": "Servo",
+      "file": "servo.iss",
+      "localPath": "public/assets/ideascratch/examples/servo.iss",
+      "publicRelativePath": "assets/ideascratch/examples/servo.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/servo.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1717,
+      "sha256": "8186cb3783c7f51f7c733552d2d2a4248b11c9eacf0dc7ea18d14c46c70351fc",
+      "blockCount": 10,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "ib_servo_angle",
+        "ib_servo_setup",
+        "math_number",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "dataLogging",
+      "label": "Data Logging",
+      "file": "dataLogging.iss",
+      "localPath": "public/assets/ideascratch/examples/dataLogging.iss",
+      "publicRelativePath": "assets/ideascratch/examples/dataLogging.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/dataLogging.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1798,
+      "sha256": "28205071393d2fa751caa9b0560978fcca334db1a858db0e73b144fbead90cbf",
+      "blockCount": 9,
+      "shadowCount": 2,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "data_log",
+        "math_number",
+        "math_random_int",
+        "text_print",
+        "time_sleep",
+        "variables_get",
+        "variables_set"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Basics",
+      "key": "bootButton",
+      "label": "Boot Button",
+      "file": "bootButton.iss",
+      "localPath": "public/assets/ideascratch/examples/bootButton.iss",
+      "publicRelativePath": "assets/ideascratch/examples/bootButton.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/bootButton.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1685,
+      "sha256": "05a85762cceaa8d90b5f19b2836c8be6c3f6f1cace7da4dd92b5002b7f0fe418",
+      "blockCount": 9,
+      "shadowCount": 2,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "controls_if",
+        "ib_event_handler",
+        "ib_event_state",
+        "ib_pixel",
+        "text_print"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Sumobot",
+      "key": "accelGyro",
+      "label": "Accel/Gyro",
+      "file": "accelGyro.iss",
+      "localPath": "public/assets/ideascratch/examples/accelGyro.iss",
+      "publicRelativePath": "assets/ideascratch/examples/accelGyro.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/accelGyro.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 3483,
+      "sha256": "a0d60405b3dc03fd93a58716faad52f9cb6345431aa6ff84f7d49a895160cde4",
+      "blockCount": 16,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumo_accel_read",
+        "sumo_accel_setup",
+        "sumo_gyro_read",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Sumobot",
+      "key": "pidMotion",
+      "label": "PID Motion",
+      "file": "pidMotion.iss",
+      "localPath": "public/assets/ideascratch/examples/pidMotion.iss",
+      "publicRelativePath": "assets/ideascratch/examples/pidMotion.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/pidMotion.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 2065,
+      "sha256": "8088c9ec18186fe3a674e62678bbaa11197c8865101f1ca5149494ae5e6972d8",
+      "blockCount": 7,
+      "shadowCount": 4,
+      "variableCount": 2,
+      "blockTypes": [
+        "sumo_accel_setup",
+        "sumo_calibrate_gyro",
+        "sumo_straight_move",
+        "sumo_turn_degrees",
+        "variables_get",
+        "variables_set"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Sumobot",
+      "key": "infrared",
+      "label": "Infrared",
+      "file": "infrared.iss",
+      "localPath": "public/assets/ideascratch/examples/infrared.iss",
+      "publicRelativePath": "assets/ideascratch/examples/infrared.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/infrared.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 2092,
+      "sha256": "87703f67f5074c6d51e5d5a976f7c03e9822b319094c1d35b30f48bec8a27670",
+      "blockCount": 12,
+      "shadowCount": 0,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumo_ir_read",
+        "sumo_ir_setup",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Sumobot",
+      "key": "ultrasonic",
+      "label": "Ultrasonic",
+      "file": "ultrasonic.iss",
+      "localPath": "public/assets/ideascratch/examples/ultrasonic.iss",
+      "publicRelativePath": "assets/ideascratch/examples/ultrasonic.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/ultrasonic.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1075,
+      "sha256": "97839f2b6661d89fcbbd73e97df8a323516961b4b18bc880d701a49496b2a93d",
+      "blockCount": 6,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumo_ultrasonic_read",
+        "sumo_ultrasonic_setup",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "Sumobot",
+      "key": "sumoBatalla01",
+      "label": "Sumo Batalla 01",
+      "file": "sumoBatalla01.iss",
+      "localPath": "public/assets/ideascratch/examples/sumoBatalla01.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumoBatalla01.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumoBatalla01.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 12672,
+      "sha256": "77a2fcc71a966c9256a157ef3fb8f780e31b343e855e16e88c91698f7f682322",
+      "blockCount": 74,
+      "shadowCount": 14,
+      "variableCount": 6,
+      "blockTypes": [
+        "controls_every",
+        "controls_forEach",
+        "controls_forever",
+        "controls_if",
+        "controls_repeat_ext",
+        "ib_motors",
+        "ib_pixel",
+        "lists_create_with",
+        "logic_compare",
+        "logic_operation",
+        "math_number",
+        "procedures_callnoreturn",
+        "procedures_defnoreturn",
+        "sumo_accel_setup",
+        "sumo_calibrate_gyro",
+        "sumo_ir_read",
+        "sumo_ir_setup",
+        "sumo_straight_move",
+        "sumo_turn_degrees",
+        "sumo_ultrasonic_read",
+        "sumo_ultrasonic_setup",
+        "text",
+        "text_join",
+        "text_print",
+        "time_sleep",
+        "variables_get",
+        "variables_set"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 1,
+      "dashboardWidgetTypes": [
+        "line-graph"
+      ],
+      "hasMqtt": true
+    },
+    {
+      "section": "Sumobot",
+      "key": "sumoBatalla02",
+      "label": "Sumo Batalla 02",
+      "file": "sumoBatalla02.iss",
+      "localPath": "public/assets/ideascratch/examples/sumoBatalla02.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumoBatalla02.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumoBatalla02.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 13777,
+      "sha256": "1a05abcc707e11fa561b505763a6b2449fa43b97e88c0d9eec661a519468e464",
+      "blockCount": 81,
+      "shadowCount": 16,
+      "variableCount": 4,
+      "blockTypes": [
+        "controls_every",
+        "controls_forever",
+        "controls_if",
+        "data_log",
+        "ib_motors",
+        "ib_pixel",
+        "logic_compare",
+        "logic_operation",
+        "math_number",
+        "procedures_callnoreturn",
+        "procedures_defnoreturn",
+        "sumo_accel_setup",
+        "sumo_calibrate_gyro",
+        "sumo_ir_read",
+        "sumo_ir_setup",
+        "sumo_straight_move",
+        "sumo_ultrasonic_read",
+        "sumo_ultrasonic_setup",
+        "text",
+        "text_join",
+        "text_print",
+        "time_sleep",
+        "variables_get",
+        "variables_set"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 3,
+      "dashboardWidgetTypes": [
+        "button",
+        "slider",
+        "toggle"
+      ],
+      "hasMqtt": true
+    },
+    {
+      "section": "SumoBot v2",
+      "key": "sumov2Color",
+      "label": "Read Color",
+      "file": "sumov2Color.iss",
+      "localPath": "public/assets/ideascratch/examples/sumov2Color.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumov2Color.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumov2Color.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 4956,
+      "sha256": "708f81dfe758e5fd7d60b07504b9ee0368b8cefc30ae1ed2fd1b47bbfc92ce4f",
+      "blockCount": 20,
+      "shadowCount": 0,
+      "variableCount": 2,
+      "blockTypes": [
+        "controls_forever",
+        "controls_if",
+        "ib_event_handler",
+        "ib_event_state",
+        "sumov2_color_name",
+        "sumov2_color_row",
+        "sumov2_color_table",
+        "sumov2_measure_color",
+        "sumov2_setup",
+        "text_print",
+        "variables_get",
+        "variables_set"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": true,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "SumoBot v2",
+      "key": "sumov2Infrared",
+      "label": "Infrared",
+      "file": "sumov2Infrared.iss",
+      "localPath": "public/assets/ideascratch/examples/sumov2Infrared.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumov2Infrared.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumov2Infrared.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1005,
+      "sha256": "9f68978eab3c9a35c735a2f8b71de95027cb891dc504e9153f76e5cecdc65e67",
+      "blockCount": 6,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumov2_measure_infrared",
+        "sumov2_setup",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": true,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "SumoBot v2",
+      "key": "sumov2AccelGyro",
+      "label": "Accel/Gyro",
+      "file": "sumov2AccelGyro.iss",
+      "localPath": "public/assets/ideascratch/examples/sumov2AccelGyro.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumov2AccelGyro.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumov2AccelGyro.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 4204,
+      "sha256": "4ffed926df52859b1244bba6685296bcc8f9d9c5654d9f2cfaf47f65eef9d99f",
+      "blockCount": 20,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumov2_accel_read",
+        "sumov2_gyro_read",
+        "sumov2_setup",
+        "text",
+        "text_join",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": true,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "SumoBot v2",
+      "key": "sumov2Detector",
+      "label": "Light Detector",
+      "file": "sumov2Detector.iss",
+      "localPath": "public/assets/ideascratch/examples/sumov2Detector.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumov2Detector.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumov2Detector.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 997,
+      "sha256": "c0bdbb4db27c7abb26e65e956a8e45ea554f47475a1154b047f7c30930f85b91",
+      "blockCount": 6,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumov2_detector",
+        "sumov2_setup",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": true,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "SumoBot v2",
+      "key": "sumov2Led",
+      "label": "LED",
+      "file": "sumov2Led.iss",
+      "localPath": "public/assets/ideascratch/examples/sumov2Led.iss",
+      "publicRelativePath": "assets/ideascratch/examples/sumov2Led.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/sumov2Led.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 4013,
+      "sha256": "333f1adb28474cb684fb9ccb8e09aa0fd6be960561c0c4fde3ed3821ad3705f0",
+      "blockCount": 20,
+      "shadowCount": 0,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "math_number",
+        "sumov2_led",
+        "sumov2_setup",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": true,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "IdeaSense Explorer",
+      "key": "accelPointer",
+      "label": "Accel Pointer",
+      "file": "accelPointer.iss",
+      "localPath": "public/assets/ideascratch/examples/accelPointer.iss",
+      "publicRelativePath": "assets/ideascratch/examples/accelPointer.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/accelPointer.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 6823,
+      "sha256": "ff3d73c24e5b43b74fec5f62dfb00c4acc963d577eb7a33270adb05c9613e905",
+      "blockCount": 35,
+      "shadowCount": 0,
+      "variableCount": 3,
+      "blockTypes": [
+        "controls_forever",
+        "controls_if",
+        "explorer_accel",
+        "explorer_matrix_draw",
+        "explorer_setup",
+        "logic_compare",
+        "math_number",
+        "time_sleep",
+        "variables_get",
+        "variables_set"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "IdeaSense Explorer",
+      "key": "textDemo",
+      "label": "Text Demo",
+      "file": "textDemo.iss",
+      "localPath": "public/assets/ideascratch/examples/textDemo.iss",
+      "publicRelativePath": "assets/ideascratch/examples/textDemo.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/textDemo.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 3646,
+      "sha256": "f8f2e536a6726ae83b1794440a4439ad27a74efb8b76eb0e6f1b9a854b2e5e64",
+      "blockCount": 14,
+      "shadowCount": 7,
+      "variableCount": 0,
+      "blockTypes": [
+        "explorer_matrix_fill",
+        "explorer_scroll_text",
+        "explorer_setup",
+        "explorer_show_char",
+        "math_number",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "IdeaSense Explorer",
+      "key": "weather",
+      "label": "Weather",
+      "file": "weather.iss",
+      "localPath": "public/assets/ideascratch/examples/weather.iss",
+      "publicRelativePath": "assets/ideascratch/examples/weather.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/weather.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 4593,
+      "sha256": "8622d65fcb67b026cb3238b3edf05869e7ddd68af0fff122a16ad73091ae1ba5",
+      "blockCount": 22,
+      "shadowCount": 2,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "controls_if",
+        "explorer_button_state",
+        "explorer_humid",
+        "explorer_matrix_fill",
+        "explorer_scroll_text",
+        "explorer_setup",
+        "explorer_temp",
+        "math_number",
+        "text",
+        "text_join",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "IdeaSense Explorer",
+      "key": "simple",
+      "label": "Simple",
+      "file": "simple.iss",
+      "localPath": "public/assets/ideascratch/examples/simple.iss",
+      "publicRelativePath": "assets/ideascratch/examples/simple.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/simple.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 5486,
+      "sha256": "dbebbe8b1c1a0a4b110330a427d92b26f65cffead35ac1aa8bd93d90c59048f0",
+      "blockCount": 25,
+      "shadowCount": 5,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "controls_if",
+        "explorer_button_state",
+        "explorer_humid",
+        "explorer_light",
+        "explorer_matrix_fill",
+        "explorer_matrix_set",
+        "explorer_setup",
+        "explorer_temp",
+        "math_number",
+        "text",
+        "text_join",
+        "text_print",
+        "time_sleep"
+      ],
+      "hasDashboard": false,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 0,
+      "dashboardWidgetTypes": [],
+      "hasMqtt": false
+    },
+    {
+      "section": "IoT",
+      "key": "mqtt_receive",
+      "label": "MQTT Receive",
+      "file": "mqtt_receive.iss",
+      "localPath": "public/assets/ideascratch/examples/mqtt_receive.iss",
+      "publicRelativePath": "assets/ideascratch/examples/mqtt_receive.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/mqtt_receive.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 2589,
+      "sha256": "a5b4144aa0df7c49154a35f9b59dc3d7126f9246bd8733804cd83d6b337325cb",
+      "blockCount": 10,
+      "shadowCount": 1,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_forever",
+        "mqtt_loop",
+        "mqtt_on_message",
+        "mqtt_received_message",
+        "mqtt_received_topic",
+        "mqtt_setup",
+        "mqtt_subscribe",
+        "text",
+        "text_join",
+        "text_print"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 1,
+      "dashboardWidgetTypes": [
+        "text-input"
+      ],
+      "hasMqtt": true
+    },
+    {
+      "section": "IoT",
+      "key": "mqtt_send",
+      "label": "MQTT Send",
+      "file": "mqtt_send.iss",
+      "localPath": "public/assets/ideascratch/examples/mqtt_send.iss",
+      "publicRelativePath": "assets/ideascratch/examples/mqtt_send.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/mqtt_send.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 2173,
+      "sha256": "74829ba16f59465a93297c6b5f6ef81ae1c19f2abb2cfa317a0827e282124ad6",
+      "blockCount": 5,
+      "shadowCount": 5,
+      "variableCount": 1,
+      "blockTypes": [
+        "controls_every",
+        "controls_forever",
+        "math_random_int",
+        "mqtt_publish",
+        "mqtt_setup"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 1,
+      "dashboardWidgetTypes": [
+        "line-graph"
+      ],
+      "hasMqtt": true
+    },
+    {
+      "section": "Dashboard",
+      "key": "serial_graph",
+      "label": "Serial Graph",
+      "file": "serial_graph.iss",
+      "localPath": "public/assets/ideascratch/examples/serial_graph.iss",
+      "publicRelativePath": "assets/ideascratch/examples/serial_graph.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/serial_graph.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1325,
+      "sha256": "6f7bcfafe6a61065a2f811b49627b9cad92e9cb45d4edcf04148370bef2bb3fe",
+      "blockCount": 4,
+      "shadowCount": 4,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_every",
+        "controls_forever",
+        "dashboard_send",
+        "math_random_int"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 1,
+      "dashboardWidgetTypes": [
+        "line-graph"
+      ],
+      "hasMqtt": true
+    },
+    {
+      "section": "Dashboard",
+      "key": "serial_receive",
+      "label": "Serial Receive from Dashboard",
+      "file": "serial_receive.iss",
+      "localPath": "public/assets/ideascratch/examples/serial_receive.iss",
+      "publicRelativePath": "assets/ideascratch/examples/serial_receive.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/serial_receive.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 1794,
+      "sha256": "17913db062e182377aac6733c5fcf643f57fb998c8c44fd805a72cd468ddb1c5",
+      "blockCount": 8,
+      "shadowCount": 0,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "dashboard_key",
+        "dashboard_on_receive",
+        "dashboard_value",
+        "text",
+        "text_join",
+        "text_print"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 3,
+      "dashboardWidgetTypes": [
+        "button",
+        "slider",
+        "toggle"
+      ],
+      "hasMqtt": true
+    },
+    {
+      "section": "Dashboard",
+      "key": "joystick",
+      "label": "Joystick",
+      "file": "joystick.iss",
+      "localPath": "public/assets/ideascratch/examples/joystick.iss",
+      "publicRelativePath": "assets/ideascratch/examples/joystick.iss",
+      "sourceUrl": "https://ideascratch.crcibernetica.com/examples/joystick.iss",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "lastModified": "Thu, 17 Sep 2026 20:17:46 GMT",
+      "format": "iss-json-v2",
+      "issVersion": 2,
+      "bytes": 7004,
+      "sha256": "2678d62279e569a3eb9ed774597a2bda07326efb470e72f905f458bbd308539b",
+      "blockCount": 39,
+      "shadowCount": 20,
+      "variableCount": 0,
+      "blockTypes": [
+        "controls_forever",
+        "controls_if",
+        "dashboard_key",
+        "dashboard_on_receive",
+        "dashboard_value",
+        "ib_motors",
+        "logic_compare",
+        "procedures_callnoreturn",
+        "procedures_defnoreturn",
+        "text",
+        "time_sleep"
+      ],
+      "hasDashboard": true,
+      "dashboardFieldOmitted": false,
+      "dashboardWidgetCount": 1,
+      "dashboardWidgetTypes": [
+        "joystick"
+      ],
+      "hasMqtt": true
+    }
+  ]
+}

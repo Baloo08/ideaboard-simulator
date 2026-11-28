@@ -1,0 +1,134 @@
+{
+  "Basics": {
+    "blink": {
+      "label": "Blink",
+      "file": "blink.iss"
+    },
+    "digitalIn": {
+      "label": "Digital In",
+      "file": "digitalIn.iss"
+    },
+    "digitalOut": {
+      "label": "Digital Out",
+      "file": "digitalOut.iss"
+    },
+    "analogIn": {
+      "label": "Analog In",
+      "file": "analogIn.iss"
+    },
+    "pixel": {
+      "label": "Pixel",
+      "file": "pixel.iss"
+    },
+    "rainbow": {
+      "label": "Rainbow",
+      "file": "rainbow.iss"
+    },
+    "motors": {
+      "label": "Motors",
+      "file": "motors.iss"
+    },
+    "servo": {
+      "label": "Servo",
+      "file": "servo.iss"
+    },
+    "dataLogging": {
+      "label": "Data Logging",
+      "file": "dataLogging.iss"
+    },
+    "bootButton": {
+      "label": "Boot Button",
+      "file": "bootButton.iss"
+    }
+  },
+  "Sumobot": {
+    "accelGyro": {
+      "label": "Accel/Gyro",
+      "file": "accelGyro.iss"
+    },
+    "pidMotion": {
+      "label": "PID Motion",
+      "file": "pidMotion.iss"
+    },
+    "infrared": {
+      "label": "Infrared",
+      "file": "infrared.iss"
+    },
+    "ultrasonic": {
+      "label": "Ultrasonic",
+      "file": "ultrasonic.iss"
+    },
+    "sumoBatalla01": {
+      "label": "Sumo Batalla 01",
+      "file": "sumoBatalla01.iss"
+    },
+    "sumoBatalla02": {
+      "label": "Sumo Batalla 02",
+      "file": "sumoBatalla02.iss"
+    }
+  },
+  "SumoBot v2": {
+    "sumov2Color": {
+      "label": "Read Color",
+      "file": "sumov2Color.iss"
+    },
+    "sumov2Infrared": {
+      "label": "Infrared",
+      "file": "sumov2Infrared.iss"
+    },
+    "sumov2AccelGyro": {
+      "label": "Accel/Gyro",
+      "file": "sumov2AccelGyro.iss"
+    },
+    "sumov2Detector": {
+      "label": "Light Detector",
+      "file": "sumov2Detector.iss"
+    },
+    "sumov2Led": {
+      "label": "LED",
+      "file": "sumov2Led.iss"
+    }
+  },
+  "IdeaSense Explorer": {
+    "accelPointer": {
+      "label": "Accel Pointer",
+      "file": "accelPointer.iss"
+    },
+    "textDemo": {
+      "label": "Text Demo",
+      "file": "textDemo.iss"
+    },
+    "weather": {
+      "label": "Weather",
+      "file": "weather.iss"
+    },
+    "simple": {
+      "label": "Simple",
+      "file": "simple.iss"
+    }
+  },
+  "IoT": {
+    "mqtt_receive": {
+      "label": "MQTT Receive",
+      "file": "mqtt_receive.iss"
+    },
+    "mqtt_send": {
+      "label": "MQTT Send",
+      "file": "mqtt_send.iss"
+    }
+  },
+  "Dashboard": {
+    "serial_graph": {
+      "label": "Serial Graph",
+      "file": "serial_graph.iss"
+    },
+    "serial_receive": {
+      "label": "Serial Receive from Dashboard",
+      "file": "serial_receive.iss"
+    },
+    "joystick": {
+      "label": "Joystick",
+      "file": "joystick.iss"
+    }
+  }
+}
